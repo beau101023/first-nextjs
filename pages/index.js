@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Counter from '../components/Counter.js';
+import CounterPair from '../components/CounterPair.js';
+import GitRepoAndParagraph from '../components/GitRepoAndParagraph.js';
+import FakeStoreSearch from '../components/FakeStoreSearch.js';
 
 export default function Home() {
   return (
@@ -14,7 +16,9 @@ export default function Home() {
       Beau Baer
     </h1>
 
-    <Counter/>
+    <CounterPair/>
+    <GitRepoAndParagraph/>
+    <FakeStoreSearch/>
 
     </div>
   );
