@@ -90,3 +90,8 @@
     flex-direction: column;
   }
 }
+
+.itemImage{
+  width: 100px;
+  height: auto;
+}
